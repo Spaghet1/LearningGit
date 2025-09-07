@@ -11,6 +11,7 @@ def selection_sort(arr):
         arr[i] = min
         arr[minIndex] = temp
 
-arr = [4,2,3,4,5,56]
+
+arr = [4,2,3,4,5,7,56]
 selection_sort(arr)
 print(arr)
