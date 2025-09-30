@@ -12,6 +12,17 @@ def selection_sort(arr):
         arr[minIndex] = temp
 
 
-arr = [4,2,3,4,5,7,56]
-selection_sort(arr)
-print(arr)
+if __name__ == '__main__':
+    arr = []
+    while True:
+        try:
+            num = int(input("Enter an integer (else to quit): "))
+            arr.append(num)
+            print(f"Current array: {arr}\n")
+        except ValueError:
+            print(f"Final array: {arr}\n")
+            break
+    selection_sort(arr)
+    print(f"Sorted array: {arr}")
+
+
