@@ -12,7 +12,6 @@ def selection_sort(arr):
         arr[minIndex] = temp
 
 if __name__ == '__main__':
-
     arr = []
     while True:
         try:
@@ -25,3 +24,4 @@ if __name__ == '__main__':
 
     selection_sort(arr)
     print(f"Sorted array is {arr}")
+
